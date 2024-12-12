@@ -1,0 +1,12 @@
+create account
+    http://localhost:5000/users/signup
+
+login
+    http://localhost:5000/users/login
+
+logout
+    http://localhost:5000/users/logout
+
+
+"email": "abc@gmail.com"
+"password": "Wertyuio9%"

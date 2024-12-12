@@ -7,6 +7,6 @@ import { getAccounts, deleteAccounts } from '../controllers/accountController.js
 const accountRouter = express.Router()
 
 accountRouter.get("/list", authUser, getAccounts);
-accountRouter.delete("/delete", authUser, deleteAccounts);
+accountRouter.delete("/clear", authUser, deleteAccounts);
 
 export default accountRouter;

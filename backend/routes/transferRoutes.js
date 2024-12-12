@@ -6,6 +6,6 @@ import authUser from '../middlewares/auth.js';
 const transferRouter = express.Router()
 
 transferRouter.post("/", authUser, makeTransfer);
-transferRouter.delete("/delete", authUser, clearTransactions)
+transferRouter.delete("/clear", authUser, clearTransactions)
 
 export default transferRouter;

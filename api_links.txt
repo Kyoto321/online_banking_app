@@ -1,0 +1,45 @@
+Links
+
+User
+create account
+    http://localhost:5000/users/signup
+
+login
+    http://localhost:5000/users/login
+
+profile
+    http://localhost:5000/users/profile
+
+logout
+    http://localhost:5000/users/logout
+
+Account
+account
+    http://localhost:5000/accounts/list
+
+clear history
+    http://localhost:5000/accounts/clear
+
+
+Transfer
+transfer
+    http://localhost:5000/transfer/
+
+clear transactions
+    http://localhost:5000/transfer/clear
+
+
+// database is mongodb
+// there is no free tier for MySql to host
+
+dummy data
+{
+    "email": "abc@gmail.com"
+    "password": "Wertyuio9%"
+}
+
+
+{
+  "email": "janedoe@gmail.com",
+  "password": "Wertyuio9%"
+}

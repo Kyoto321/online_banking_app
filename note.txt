@@ -10,3 +10,10 @@ logout
 
 "email": "abc@gmail.com"
 "password": "Wertyuio9%"
+
+
+
+{
+  "email": "janedoe@gmail.com",
+  "password": "Wertyuio9%"
+}

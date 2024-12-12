@@ -1,6 +1,4 @@
-//const mongoose = require("mongoose")
 import mongoose from "mongoose";
-//import { generateAccountNumber } from "../utils/helper.js";
 
 const accountSchema = new mongoose.Schema({
         user: {

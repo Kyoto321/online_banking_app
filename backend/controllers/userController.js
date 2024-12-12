@@ -119,19 +119,6 @@ export {
 
 
 
-// generate unique account number and transfer pin
-// // mongoose hooks
-
-// accountSchema.pre("save", function(next) {
-//     if(!this.isModified("accountNumber")) {
-//         this.accountNumber = generateAccountNumber()
-//     }
-//     if(!this.isModified("pin")) {
-//         this.accountNumber = generatePin()
-//     }
-
-//     next();
-// })
 
 
 

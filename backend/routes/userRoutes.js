@@ -1,6 +1,3 @@
-//const { Router } = require("express");
-//const { getUsers, createUser } = require("../controllers/userController");
-
 import express from 'express'
 import { 
     getUsers, 
